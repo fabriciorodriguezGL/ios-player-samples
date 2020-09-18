@@ -35,6 +35,7 @@ class ViewController: UIViewController {
         vc.isAutoAdvance = true
         vc.isAutoPlay = true
         vc.allowsExternalPlayback = true
+        vc.allowsBackgroundAudioPlayback = true
         vc.add(self.controlsViewController)
         return vc
     }()
